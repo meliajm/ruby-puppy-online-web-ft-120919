@@ -1,6 +1,6 @@
 # Add your code here
 # require 'pry'
-# require 'byebug'
+require 'byebug'
 class Dog 
   @@all = []
   attr_reader :name
@@ -19,7 +19,7 @@ class Dog
   def self.print_all
     @@all.each do |puppy| 
       puts puppy.name 
-      # byebug
+      byebug
     end
     
   end 
