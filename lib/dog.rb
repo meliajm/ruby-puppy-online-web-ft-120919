@@ -23,5 +23,7 @@ class Dog
     @@all = []
   end 
   
-  def self.
+  def self.save
+    
+  end
 end
