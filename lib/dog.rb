@@ -24,7 +24,7 @@ class Dog
     @@name.each { |puppy| puts puppy}
     
   end 
-  binding.pry
+  # binding.pry
   def self.clear_all
     @@all = []
   end 
