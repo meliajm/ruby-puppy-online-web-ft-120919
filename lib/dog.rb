@@ -19,7 +19,7 @@ class Dog
   def self.print_all
     @@all.each do |puppy| 
       puts puppy.name 
-      binding.pry
+      byebug
     end
     
   end 
