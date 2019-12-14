@@ -22,9 +22,9 @@ class Dog
   
   def self.print_all
     @@name.each { |puppy| puts puppy}
-    binding.pry
+    
   end 
-  
+  binding.pry
   def self.clear_all
     @@all = []
   end 
