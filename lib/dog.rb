@@ -6,4 +6,8 @@ class Dog
   def initialize
     @@all << self
   end 
+  
+  def all
+    
+  end
 end
