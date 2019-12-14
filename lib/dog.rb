@@ -1,5 +1,6 @@
 # Add your code here
 require 'pry'
+require 'byebug'
 class Dog 
   @@all = []
   attr_reader :name
